@@ -1,0 +1,24 @@
+{
+  "name": "gitbook-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:prepare": "gitbook install",
+    "docs:build": "npm run docs:prepare && gitbook build -g kenlee/gitbook-template",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Lee",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-gist": "^1.0.0",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-prism": "^2.2.1",
+    "gitbook-plugin-tonic": "^1.1.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
+}

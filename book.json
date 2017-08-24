@@ -1,0 +1,13 @@
+{
+    "gitbook": ">= 3.0.0",
+    "plugins": ["edit-link", "prism", "-highlight", "github", "tonic", "gist"],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "github.com/kenlee/repo",
+            "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/kenlee/repo"
+        }
+    }
+}
